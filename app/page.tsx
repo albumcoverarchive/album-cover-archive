@@ -38,8 +38,19 @@ const albums: Album[] = [
     apple: "https://music.apple.com/kr/album/re-make/1852983533",
     youtube: "https://music.youtube.com/playlist?list=OLAK5uy_kUtX0HHK6V3qJ4OkGtMpgzMBdxkDhoSFo",
   },
-];
 
+{
+    id: 3,
+    title: "WDA (Whole Different Animal)",
+    artist: "aespa",
+    year: "2026",
+    genre: "K-Pop",
+    image: "/covers/03_26_WDA_aespa.jpg",
+    spotify: "https://open.spotify.com/album/1zL6cXyNIMtyJtmj99fkSS",
+    apple: "https://music.apple.com/kr/album/wda-whole-different-animal-feat-g-dragon-single/1894805931",
+    youtube: "https://music.youtube.com/playlist?list=OLAK5uy_mGeBxJvlcXi_IDqkhzf-IPZRjkmGbr1X0",
+  },
+  ];
 const PER_PAGE = 16;
 
 export default function Home() {

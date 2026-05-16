@@ -17,14 +17,14 @@ interface Album {
 const albums: Album[] = [
   {
     id: 1,
-    title: "Heavy Serenade",
-    artist: "NMIXX",
-    year: "2026",
+    title: "앨범 제목",
+    artist: "아티스트",
+    year: "2024",
     genre: "K-Pop",
-    image: "/covers/26_HeavySerenade_NMIXX.jpg",
-    spotify: "https://open.spotify.com/album/0TOh2mF9pf00hxvePxpJFj",
-    apple: "https://music.apple.com/kr/album/heavy-serenade-ep/1892954835",
-    youtube: "https://music.youtube.com/playlist?list=OLAK5uy_md4y1seQXLJ2UE-1bsVLeCjP4QvIbl4kM",
+    image: "/covers/1.jpg",
+    spotify: "https://spotify.com",
+    apple: "https://music.apple.com",
+    youtube: "https://music.youtube.com",
   },
 ];
 
@@ -46,10 +46,10 @@ export default function Home() {
         display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between',
         padding: '28px 40px 24px', borderBottom: '0.5px solid rgba(0,0,0,0.1)',
       }}>
-        <div style={{ fontSize: '28px', fontWeight: 500, lineHeight: 1.45, letterSpacing: '0.04em', color: '#0a0b0b' }}>
-          Album Cover Archive
+        <div style={{ fontSize: '11px', fontWeight: 500, lineHeight: 1.45, letterSpacing: '0.04em', color: '#0a0b0b' }}>
+          Album<br />Cover<br />Archive
         </div>
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#232323" strokeWidth="1.5" style={{ cursor: 'pointer' }}>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0a0b0b" strokeWidth="1.5" style={{ cursor: 'pointer' }}>
           <circle cx="11" cy="11" r="8" /><path d="m21 21-4.35-4.35" />
         </svg>
       </nav>

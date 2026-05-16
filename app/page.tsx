@@ -50,7 +50,20 @@ const albums: Album[] = [
     apple: "https://music.apple.com/kr/album/wda-whole-different-animal-feat-g-dragon-single/1894805931",
     youtube: "https://music.youtube.com/playlist?list=OLAK5uy_mGeBxJvlcXi_IDqkhzf-IPZRjkmGbr1X0",
   },
+
+    {
+    id: 4,
+    title: "Say Yes!",
+    artist: "FIFTY FIFTY & WeiBird",
+    year: "2026",
+    genre: "Mandopop",
+    image: "/covers/04_26_SayYes!_FIFTYFIFTY.jpg",
+    spotify: "https://open.spotify.com/album/0S7fk4aShJaOKaWz5iMjjp",
+    apple: "https://music.apple.com/kr/album/say-yes-single/1889709882",
+    youtube: "https://music.youtube.com/playlist?list=OLAK5uy_mPVkvbZjVxrFIB9lSgYC54gOrjhUSyp1o",
+  },
   ];
+
 const PER_PAGE = 16;
 
 export default function Home() {

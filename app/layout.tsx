@@ -14,7 +14,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Album Cover Archive",
-  description: "A collection of album covers from various artists and genres",
+  description: "A non-commercial archive of album cover design.",
+  verification: {
+    google: "wYf7JAoMXs-GN2vhYsX9n7Nwri3BsQwzWvxKSXxzves",
+  },
 };
 
 export default function RootLayout({

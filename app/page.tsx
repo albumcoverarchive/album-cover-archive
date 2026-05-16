@@ -46,10 +46,10 @@ export default function Home() {
         display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between',
         padding: '28px 40px 24px', borderBottom: '0.5px solid rgba(0,0,0,0.1)',
       }}>
-        <div style={{ fontSize: '28px', fontWeight: 500, lineHeight: 1.45, letterSpacing: '0.04em', color: '#0a0b0b' }}>
+        <div style={{ fontSize: '28px', fontWeight: 700, lineHeight: 1.45, letterSpacing: '0.04em', color: '#0a0b0b' }}>
           Album Cover Archive
         </div>
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#232323" strokeWidth="1.5" style={{ cursor: 'pointer' }}>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0a0b0b" strokeWidth="1.5" style={{ cursor: 'pointer' }}>
           <circle cx="11" cy="11" r="8" /><path d="m21 21-4.35-4.35" />
         </svg>
       </nav>
@@ -63,7 +63,10 @@ export default function Home() {
             <div
               key={album.id}
               onClick={() => setSelected(album)}
-              style={{ cursor: 'pointer', position: 'relative', aspectRatio: '1', borderRadius: '2px', overflow: 'hidden' }}
+              style={{ cursor: 'pointer' }}
+            >
+            <div
+              style={{ position: 'relative', aspectRatio: '1', borderRadius: '2px', overflow: 'hidden' }}
               className="album-item"
             >
               <img
@@ -81,8 +84,8 @@ export default function Home() {
                 transition: 'opacity 0.35s ease', background: 'rgba(0,0,0,0.15)',
               }}>
                 <div>
-                  <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.8)', letterSpacing: '0.06em', marginBottom: '3px' }}>{album.year}</div>
-                  <div style={{ fontSize: '13px', fontWeight: 500, color: '#fff' }}>{album.artist}</div>
+                  <div style={{ fontSize: '21px', color: '#ffffff', letterSpacing: '0.06em', marginBottom: '3px' }}>{album.year}</div>
+                  <div style={{ fontSize: '28px', fontWeight: 500, color: '#fff' }}>{album.artist}</div>
                 </div>
                 <div style={{ display: 'flex', gap: '8px' }}>
                   {album.spotify && (
@@ -108,6 +111,8 @@ export default function Home() {
                   )}
                 </div>
               </div>
+            </div>
+            <p style={{ fontSize: '28px', color: '#0a0b0b', fontWeight: 500, textAlign: 'center', marginTop: '10px', letterSpacing: '0.01em', fontFamily: 'Pretendard, sans-serif' }}>{album.title}</p>
             </div>
           ))}
         </div>
@@ -142,8 +147,8 @@ export default function Home() {
         padding: '40px', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end',
       }}>
         <div>
-          <div style={{ fontSize: '11px', fontWeight: 500, lineHeight: 1.45, letterSpacing: '0.04em', color: '#0a0b0b', marginBottom: '14px' }}>
-            Album<br />Cover<br />Archive
+          <div style={{ fontSize: '16px', fontWeight: 500, lineHeight: 1.45, letterSpacing: '0.04em', color: '#0a0b0b', marginBottom: '14px' }}>
+            Album Cover Archive
           </div>
           <div style={{ fontSize: '11px', color: '#aaa', lineHeight: 1.7, maxWidth: '380px' }}>
             This website is operated for non-commercial purposes only.<br />

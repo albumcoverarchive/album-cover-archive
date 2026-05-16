@@ -29,7 +29,7 @@ const albums: Album[] = [
 
   {
     id: 2,
-    title: "Re-Make",
+     title: "Re-Make",
     artist: "Hyelyn Joo",
     year: "2025",
     genre: "Jazz",
@@ -48,7 +48,7 @@ export default function Home() {
 
   const totalPages = Math.ceil(albums.length / PER_PAGE);
   const start = currentPage * PER_PAGE;
-  const slice = albums.slice(start, start + PER_PAGE);
+const slice = [...albums].reverse().slice(start, start + PER_PAGE);
 
   return (
     <main style={{ background: '#F8F8F6', minHeight: '100vh', fontFamily: 'Pretendard, -apple-system, sans-serif' }}>

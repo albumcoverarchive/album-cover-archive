@@ -21,10 +21,22 @@ const albums: Album[] = [
     artist: "NMIXX",
     year: "2026",
     genre: "K-Pop",
-    image: "/covers/26_HeavySerenade_NMIXX.jpg",
+    image: "/covers/01_26_HeavySerenade_NMIXX.jpg",
     spotify: "https://open.spotify.com/album/0TOh2mF9pf00hxvePxpJFj",
     apple: "https://music.apple.com/kr/album/heavy-serenade-ep/1892954835",
     youtube: "https://music.youtube.com/playlist?list=OLAK5uy_md4y1seQXLJ2UE-1bsVLeCjP4QvIbl4kM",
+  },
+
+  {
+    id: 2,
+    title: "Re-Make",
+    artist: "Hyelyn Joo",
+    year: "2025",
+    genre: "Jazz",
+    image: "/covers/02_25_ReMake_HyelynJoo.jpg",
+    spotify: "https://open.spotify.com/album/7qjuU5f7Wh5XZ3OcCzOpOp",
+    apple: "https://music.apple.com/kr/album/re-make/1852983533",
+    youtube: "https://music.youtube.com/playlist?list=OLAK5uy_kUtX0HHK6V3qJ4OkGtMpgzMBdxkDhoSFo",
   },
 ];
 

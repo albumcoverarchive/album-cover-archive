@@ -73,17 +73,6 @@ const albums: Album[] = [
     apple: "https://music.apple.com/kr/album/armageddon-the-1st-album/1745285216",
     youtube: "https://music.youtube.com/playlist?list=OLAK5uy_lZOwc-leIEDyAvoSVhtHj4gNixHkQp6LI",
   },
-    {
-    id: 6,
-    title: "The Chase",
-    artist: "Hearts2Hearts",
-    year: "2025",
-    genre: "K-Pop",
-    image: "/covers/06_25_TheChase_H2H.webp",
-    spotify: "https://open.spotify.com/album/2IjkSbisATTpSpVIlFVNkN",
-    apple: "https://music.apple.com/kr/album/the-chase-single/1796402197",
-    youtube: "https://music.youtube.com/playlist?list=OLAK5uy_mQaENdVi8R0G0p8Ha5r0dEr7hio8TiAhE",
-  },
   ];
 
 const PER_PAGE = 16;
@@ -139,7 +128,7 @@ const slice = [...albums].reverse().slice(start, start + PER_PAGE);
               <div className="hover-info" style={{
                 position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column',
                 justifyContent: 'space-between', padding: '14px', opacity: 0,
-                transition: 'opacity 0.35s ease', background: 'rgba(0,0,0,0.15)',
+                transition: 'opacity 0.35s ease', background: 'transparent', transform: 'inherit',
               }}>
                 <div>
                   <div style={{ fontSize: '21px', color: '#ffffff', letterSpacing: '0.06em', marginBottom: '3px' }}>{album.year}</div>
@@ -277,8 +266,12 @@ const slice = [...albums].reverse().slice(start, start + PER_PAGE);
 
       <style>{`
         @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        .album-item { transition: transform 0.3s ease; overflow: hidden; }
+        .album-item:hover { transform: scale(0.93); }
+        .album-item:active { transform: scale(0.88); }
         .album-item img { transition: filter 0.35s ease; }
         .album-item:hover img { filter: grayscale(100%); }
+        .album-item:active img { filter: grayscale(0%); }
         .album-item:hover .hover-info { opacity: 1 !important; }
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
         @keyframes scaleIn { from { transform: scale(0.96); } to { transform: scale(1); } }

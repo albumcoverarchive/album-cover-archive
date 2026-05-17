@@ -73,6 +73,17 @@ const albums: Album[] = [
     apple: "https://music.apple.com/kr/album/armageddon-the-1st-album/1745285216",
     youtube: "https://music.youtube.com/playlist?list=OLAK5uy_lZOwc-leIEDyAvoSVhtHj4gNixHkQp6LI",
   },
+    {
+    id: 6,
+    title: "The Chase",
+    artist: "Hearts2Hearts",
+    year: "2025",
+    genre: "K-Pop",
+    image: "/covers/06_25_TheChase_H2H.webp",
+    spotify: "https://open.spotify.com/album/2IjkSbisATTpSpVIlFVNkN",
+    apple: "https://music.apple.com/kr/album/the-chase-single/1796402197",
+    youtube: "https://music.youtube.com/playlist?list=OLAK5uy_mQaENdVi8R0G0p8Ha5r0dEr7hio8TiAhE",
+  },
   ];
 
 const PER_PAGE = 16;

@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Album Cover Archive",
   description: "A non-commercial archive of album cover design.",
+  icons: {
+    icon: '/favicon.jpg',
+  },
   verification: {
     google: "wYf7JAoMXs-GN2vhYsX9n7Nwri3BsQwzWvxKSXxzves",
   },

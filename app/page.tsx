@@ -84,6 +84,28 @@ const albums: Album[] = [
     apple: "https://music.apple.com/kr/album/the-chase-single/1796402197",
     youtube: "https://music.youtube.com/playlist?list=OLAK5uy_mQaENdVi8R0G0p8Ha5r0dEr7hio8TiAhE",
   },
+    {
+    id: 7,
+    title: "Bubee",
+    artist: "ILLIT",
+    year: "2026",
+    genre: "J-Pop",
+    image: "/covers/07_26_Bubee_ILLIT.webp",
+    spotify: "https://open.spotify.com/album/7svAQjE0MysOpOEQRHD9D2",
+    apple: "https://music.apple.com/kr/album/bubee-single/1890111381",
+    youtube: "https://music.youtube.com/playlist?list=OLAK5uy_l72KrfxAZhAed05BAhjrqNByJzD6J-6sA",
+  },
+  {
+    id: 8,
+    title: "Russian Roulette",
+    artist: "Red Velvet",
+    year: "2016",
+    genre: "K-Pop",
+    image: "/covers/08_16_RussianRoulette_RV.webp",
+    spotify: "https://open.spotify.com/album/6MNlcai3skKLKv5syzFwC3",
+    apple: "https://music.apple.com/kr/album/russian-roulette-the-3rd-mini-album/1151001050",
+    youtube: "https://music.youtube.com/playlist?list=OLAK5uy_msl4-ISMgc59nywaeB1A3WSt3Ei-MugeA",
+  },
   ];
 
 const PER_PAGE = 16;

@@ -279,7 +279,7 @@ const slice = [...albums].reverse().slice(start, start + PER_PAGE);
         @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
         .album-item { transition: transform 0.3s ease; overflow: hidden; }
         .album-item:hover { transform: scale(0.93); }
-        .album-item:active { transform: scale(0.95); }
+        .album-item:active { transform: scale(0.98); }
         .album-item img { transition: filter 0.35s ease; }
         .album-item:hover img { filter: grayscale(100%); }
         .album-item:active img { filter: grayscale(0%); }

@@ -62,6 +62,17 @@ const albums: Album[] = [
     apple: "https://music.apple.com/kr/album/say-yes-single/1889709882",
     youtube: "https://music.youtube.com/playlist?list=OLAK5uy_mPVkvbZjVxrFIB9lSgYC54gOrjhUSyp1o",
   },
+    {
+    id: 5,
+    title: "Armageddon",
+    artist: "aespa",
+    year: "2024",
+    genre: "K-Pop",
+    image: "/covers/05_2024_Armageddon_aespa.webp",
+    spotify: "https://open.spotify.com/album/3gHhPm8z8tid1kvpniUKuK",
+    apple: "https://music.apple.com/kr/album/armageddon-the-1st-album/1745285216",
+    youtube: "https://music.youtube.com/playlist?list=OLAK5uy_lZOwc-leIEDyAvoSVhtHj4gNixHkQp6LI",
+  },
   ];
 
 const PER_PAGE = 16;

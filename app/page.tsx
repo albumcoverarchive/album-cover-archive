@@ -150,6 +150,17 @@ const albums: Album[] = [
     apple: "https://music.apple.com/kr/album/summer-flows-0-02-ep/1781856626",
     youtube: "https://music.youtube.com/playlist?list=OLAK5uy_mW2-HLlOsPoHUnVyM5KS1FOBHoN1xKYnM",
   },
+    {
+    id: 13,
+    title: "How Sweet",
+    artist: "NewJeans",
+    year: "2024",
+    genre: "K-Pop",
+    image: "/covers/13_24_howsweet_newjeans.webp",
+    spotify: "https://open.spotify.com/album/0EhZEM4RRz0yioTgucDhJq",
+    apple: "https://music.apple.com/kr/album/how-sweet/1744448415",
+    youtube: "https://music.youtube.com/playlist?list=OLAK5uy_l0nFJiyQV7ZaVmRh1gW9g1tk3UANGUipc",
+  }
   ];
 
 const PER_PAGE = 16;

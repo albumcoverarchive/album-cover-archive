@@ -192,7 +192,7 @@ const slice = [...albums].reverse().slice(start, start + PER_PAGE);
         display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between',
         padding: '28px 40px 24px', borderBottom: '0.5px solid rgba(0,0,0,0.1)',
       }}>
-        <div style={{ fontSize: '28px', fontWeight: 700, lineHeight: 1.45, letterSpacing: '0.04em', color: '#0a0b0b' }}>
+        <div style={{ fontSize: '18px', fontWeight: 700, lineHeight: 1.45, letterSpacing: '0.04em', color: '#0a0b0b' }}>
           Album Cover Archive
         </div>
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0a0b0b" strokeWidth="1.5" style={{ cursor: 'pointer' }}>

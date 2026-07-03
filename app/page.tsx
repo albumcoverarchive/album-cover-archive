@@ -160,7 +160,18 @@ const albums: Album[] = [
     spotify: "https://open.spotify.com/album/0EhZEM4RRz0yioTgucDhJq",
     apple: "https://music.apple.com/kr/album/how-sweet/1744448415",
     youtube: "https://music.youtube.com/playlist?list=OLAK5uy_l0nFJiyQV7ZaVmRh1gW9g1tk3UANGUipc",
-  }
+  },
+    {
+    id: 14,
+    title: "Moment",
+    artist: "Peggy Gou",
+    year: "2019",
+    genre: "Dance",
+    image: "/covers/14_19_Moment_PeggyGou.webp",
+    spotify: "https://open.spotify.com/album/0bYW9weJ7SXRaBFbWuBQeI",
+    apple: "https://music.apple.com/us/album/starry-night/1677874605",
+    youtube: "https://music.youtube.com/playlist?list=OLAK5uy_l_amcZbkTjO0-zUm8Q1WzIDXZTAjyFIJ8",
+  },
   ];
 
 const PER_PAGE = 16;

@@ -258,7 +258,7 @@ const slice = [...albums].reverse().slice(start, start + PER_PAGE);
                 </div>
               </div>
             </div>
-            <p style={{ fontSize: '28px', color: '#0a0b0b', fontWeight: 500, textAlign: 'center', marginTop: '10px', letterSpacing: '0.01em', fontFamily: 'Pretendard, sans-serif' }}>{album.title}</p>
+            <p style={{ fontSize: '18px', color: '#0a0b0b', fontWeight: 500, textAlign: 'center', marginTop: '10px', letterSpacing: '0.01em', fontFamily: 'Pretendard, sans-serif' }}>{album.title}</p>
             </div>
           ))}
         </div>

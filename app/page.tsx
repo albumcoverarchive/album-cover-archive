@@ -216,6 +216,17 @@ const albums: Album[] = [
   apple: "https://music.apple.com/us/album/follow/1891844033?i=1891844356",
   youtube: "https://music.youtube.com/playlist?list=OLAK5uy_lcE9mBAKAVjXKHsh9GdIUatmY882uLqPU",
 },
+{
+  id: 20,
+  title: "Odd",
+  artist: "SHINee",
+  year: "2015",
+  genre: "K-Pop",
+  image: "/covers/20_15_Odd_SHINee.webp",
+  spotify: "https://open.spotify.com/album/47zSQLQWjPLmiEbCpOOEJa",
+  apple: "https://music.apple.com/us/album/odd-the-4th-album/994425103",
+  youtube: "https://music.youtube.com/playlist?list=OLAK5uy_l0u4P1Iu9M1DjLfosZiEuTnzLTlMQQb-o",
+},
   ];
 
 const PER_PAGE = 16;

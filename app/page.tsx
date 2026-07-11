@@ -95,7 +95,7 @@ const albums: Album[] = [
     apple: "https://music.apple.com/kr/album/bubee-single/1890111381",
     youtube: "https://music.youtube.com/playlist?list=OLAK5uy_l72KrfxAZhAed05BAhjrqNByJzD6J-6sA",
   },
-  {
+   {
     id: 8,
     title: "Russian Roulette",
     artist: "Red Velvet",
@@ -172,7 +172,7 @@ const albums: Album[] = [
     apple: "https://music.apple.com/us/album/starry-night/1677874605",
     youtube: "https://music.youtube.com/playlist?list=OLAK5uy_l_amcZbkTjO0-zUm8Q1WzIDXZTAjyFIJ8",
   },
-  {
+   {
     id: 15,
     title: "SUPER REAL ME",
     artist: "ILLIT",
@@ -183,7 +183,7 @@ const albums: Album[] = [
     apple: "https://music.apple.com/us/album/super-real-me-ep/1734500886",
     youtube: "https://music.youtube.com/playlist?list=OLAK5uy_mMXS9WvSvyWnDxL1kysT1lwo_HjlLd6d8",
   },
-  {
+   {
     id: 16,
     title: "Toki Yo Tomare",
     artist: "ILLIT",
@@ -194,7 +194,7 @@ const albums: Album[] = [
     apple: "https://music.apple.com/us/album/toki-yo-tomare-ep/1833184647",
     youtube: "https://music.youtube.com/playlist?list=OLAK5uy_lKdGaJHXqZiC1oFpChKnxLlnCoSsbLaLE",
   },
-  {
+   {
     id: 17,
     title: "NOT CUTE ANYMORE",
     artist: "ILLIT",
@@ -205,7 +205,7 @@ const albums: Album[] = [
     apple: "https://music.apple.com/us/album/not-cute-anymore-single/1849105513",
     youtube: "https://music.youtube.com/playlist?list=OLAK5uy_m22yyMNSqCGR5lMlu6aDGpBC9lyvnU9gM",
   },
-  {
+   {
   id: 18,
   title: "Fire From The Hip",
   artist: "Finn Wolfhard",
@@ -216,7 +216,18 @@ const albums: Album[] = [
   apple: "https://music.apple.com/us/album/follow/1891844033?i=1891844356",
   youtube: "https://music.youtube.com/playlist?list=OLAK5uy_lcE9mBAKAVjXKHsh9GdIUatmY882uLqPU",
 },
-{
+ {
+  id: 19,
+  title: "Epiphyllum Oxypetalum",
+  artist: "Pictured Resort",
+  year: "2026",
+  genre: "R&B/Soul",
+  image: "/covers/19_26_EO_PR.webp",
+  spotify: "https://open.spotify.com/album/4OAGFbosMJpt2ALr1CDNIb?highlight=spotify:track:03gP5McXfMABal7NwfmCCM",
+  apple: "https://music.apple.com/us/album/half-ice-half-fire/6768536645?i=6768536646",
+  youtube: "https://music.youtube.com/playlist?list=OLAK5uy_loHLXxQ_y2jj6S6jpurkwbvInMZqoZToY",
+},
+ {
   id: 20,
   title: "Odd",
   artist: "SHINee",

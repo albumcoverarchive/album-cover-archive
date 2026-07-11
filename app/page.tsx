@@ -205,6 +205,17 @@ const albums: Album[] = [
     apple: "https://music.apple.com/us/album/not-cute-anymore-single/1849105513",
     youtube: "https://music.youtube.com/playlist?list=OLAK5uy_m22yyMNSqCGR5lMlu6aDGpBC9lyvnU9gM",
   },
+  {
+  id: 18,
+  title: "Fire From The Hip",
+  artist: "Finn Wolfhard",
+  year: "2026",
+  genre: "Rock",
+  image: "/covers/18_26_FFTH_Finn.webp",
+  spotify: "https://open.spotify.com/album/43mE12XfH3PQ7iX3mPj2Ri",
+  apple: "https://music.apple.com/us/album/follow/1891844033?i=1891844356",
+  youtube: "https://music.youtube.com/playlist?list=OLAK5uy_lcE9mBAKAVjXKHsh9GdIUatmY882uLqPU",
+},
   ];
 
 const PER_PAGE = 16;
